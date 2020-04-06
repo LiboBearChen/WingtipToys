@@ -73,8 +73,8 @@ C:\Users\Libo\Desktop\WingtipToys\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Libo\Desktop\WingtipToys\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Libo\Desktop\WingtipToys\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\Libo\Desktop\WingtipToys\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Libo\Desktop\WingtipToys\obj\Debug\WingtipToys.csprojAssemblyReference.cache
 C:\Users\Libo\Desktop\WingtipToys\obj\Debug\WingtipToys.csproj.CoreCompileInputs.cache
 C:\Users\Libo\Desktop\WingtipToys\obj\Debug\WingtipToys.csproj.CopyComplete
 C:\Users\Libo\Desktop\WingtipToys\obj\Debug\WingtipToys.dll
 C:\Users\Libo\Desktop\WingtipToys\obj\Debug\WingtipToys.pdb
+C:\Users\Libo\Desktop\WingtipToys\obj\Debug\WingtipToys.csprojAssemblyReference.cache
