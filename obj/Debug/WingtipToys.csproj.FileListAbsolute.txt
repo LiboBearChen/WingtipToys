@@ -77,4 +77,3 @@ C:\Users\Libo\Desktop\WingtipToys\obj\Debug\WingtipToys.csproj.CoreCompileInputs
 C:\Users\Libo\Desktop\WingtipToys\obj\Debug\WingtipToys.csproj.CopyComplete
 C:\Users\Libo\Desktop\WingtipToys\obj\Debug\WingtipToys.dll
 C:\Users\Libo\Desktop\WingtipToys\obj\Debug\WingtipToys.pdb
-C:\Users\Libo\Desktop\WingtipToys\obj\Debug\WingtipToys.csprojAssemblyReference.cache

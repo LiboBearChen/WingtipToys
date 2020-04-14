@@ -182,11 +182,15 @@ public class NVPAPICaller
 
         string strPost = NvpRequest + "&" + buildCredentialsNVPString();
         strPost = strPost + "&BUTTONSOURCE=" + HttpUtility.UrlEncode(BNCode);
+        //var byteStr = Encoding.UTF8.GetBytes(strPost);
+
+        //Paypal Stops supporting SSL3
+        ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
 
         HttpWebRequest objRequest = (HttpWebRequest)WebRequest.Create(url);
         objRequest.Timeout = Timeout;
         objRequest.Method = "POST";
-        objRequest.ContentLength = strPost.Length;
+        //objRequest.ContentLength = strPost.Length;
 
         try
         {
@@ -194,10 +198,16 @@ public class NVPAPICaller
             {
                 myWriter.Write(strPost);
             }
+
+            //using (var str = objRequest.GetRequestStream())
+            //{
+            //    str.Write(byteStr, 0, byteStr.Length);
+            //}
         }
         catch (Exception)
         {
             // No logging for this tutorial.
+            
         }
 
         //Retrieve the Response returned from the NVP API call to PayPal.
